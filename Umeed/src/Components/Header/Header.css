@@ -1,0 +1,26 @@
+.HeaderContainer{
+    display: flex;
+
+}
+.Hname{
+    padding-left: 11%;
+    
+}
+.HeaderComponents{
+    display: flex;
+    padding-left: 40%;
+
+    
+}
+.HeaderConnect{
+    padding-left: 101px
+
+}
+.HeaderSelfHelp{
+    padding-left: 101px
+
+}
+.Headerprofilepic{
+    padding-left: 101px
+
+}
