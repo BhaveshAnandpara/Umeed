@@ -4,21 +4,21 @@ export default function Header() {
     return (
         <div className='HeaderContainer'>
             <div className="Hname">
-            <p>Umeed</p>
+            <a  className='Hname_Header_anchor' href=''><p className='PHname'>Umeed</p></a>
             </div>
             <div className="HeaderComponents">
                 <div className="HeaderHome">
-                    <p>Home</p>
+                <a  className='Header_anchor' href=''><p>Home</p></a>
                 </div>
                 <div className="HeaderConnect">
-                    <p>Connect</p>
+                <a className='Header_anchor' href=''><p>Connect</p></a>
                 </div>
                 <div className="HeaderSelfHelp">
-                    <p>Self help groups</p>
+                <a className='Header_anchor' href=''><p>Self help groups</p></a>
 
                 </div>
                 <div className="Headerprofilepic">
-                    <p>Umeed</p>
+                    <p>Profile</p>
 
                 </div>
             </div>
