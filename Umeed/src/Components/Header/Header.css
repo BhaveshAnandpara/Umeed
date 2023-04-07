@@ -21,7 +21,7 @@
 }
 .HeaderComponents{
     display: flex;
-    padding-left: 40%;
+    padding-left: 30%;
 
     
 }
@@ -35,5 +35,7 @@
 }
 .Headerprofilepic{
     padding-left: 101px
-
 }    
+.HeaderSolution{
+        padding-left: 101px;
+}

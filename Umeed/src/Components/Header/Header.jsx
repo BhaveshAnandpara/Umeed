@@ -17,6 +17,10 @@ export default function Header() {
                 <a className='Header_anchor' href=''><p>Self help groups</p></a>
 
                 </div>
+                <div className="HeaderSolution">
+                <a className='Header_anchor' href=''><p>Solution</p></a>
+
+                </div>
                 <div className="Headerprofilepic">
                     <p>Profile</p>
 
