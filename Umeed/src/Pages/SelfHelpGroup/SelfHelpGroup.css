@@ -1,1 +1,130 @@
+  .SelfHelpContainer {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-top: 29px;
+  }
+
+  .cards {
+    /* border: 2px solid red; */
+    width: 1342px;
+    height: 306px;
+    background: linear-gradient(90deg, #67B8E0 0%, #1B68A8 99.99%, #004E8F 100%);
+    border-radius: 6px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .PicNameContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 658px;
+    height: 120px;
+    left: 202px;
+    top: 184px;
+  }
+
+  .pic {
+    width: 120px;
+    height: 120px;
+
+    background: #000000;
+    border-radius: 60px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .Name {
+    width: 498px;
+    height: 68px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 68px;
+    /* identical to box height */
+
+
+    /* Text White */
+
+    color: #EFEFEF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .Type {
+    display: flex;
+    gap: 14%;
+    width: 84px;
+    height: 23px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #474747;
+  }
+
+  .TypeOne {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 18px;
+    gap: 10px;
+
+    width: 120px;
+    height: 35px;
+
+    /* Text White */
+
+    background: #EFEFEF;
+    /* Text White */
+
+    border: 1px solid #EFEFEF;
+    border-radius: 40px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .Btn-JoinGr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+    position: absolute;
+    width: 170px;
+    height: 43px;
+    left: 1181px;
+    top: 286px;
+    background: linear-gradient(90deg, #B8FFE6 0%, #A2FFC4 100%);
+    border-radius: 80px;
+}
   

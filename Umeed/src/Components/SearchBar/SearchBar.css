@@ -1,0 +1,30 @@
+.PlaceholderBar{
+height: 3px;
+width: 131px;
+left: 60px;
+top: 183px;
+outline: none;
+border-radius: 3px;
+padding: 24px 1062px 24px 50px;
+background-color: 
+rgba(242, 239, 239, 1);
+border: none;
+}
+.BtnSubmit{
+    height: 50.54px;
+    width: 90px;
+    border-radius: 3px;
+    border: 2px solid transparent;
+    background-color: 
+rgba(242, 239, 239, 1);
+   
+}
+.BtnSubmit:hover {
+    border-color: black;
+    transition: border-color 0.5s ease-in-out;
+  }
+  .SearchBar{
+    display: flex;
+    justify-content: center;
+  }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
