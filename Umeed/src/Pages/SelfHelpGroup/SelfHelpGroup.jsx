@@ -1,43 +1,16 @@
 import React from 'react'
 import SearchBar from '../../Components/SearchBar/SearchBar'
 import '../SelfHelpGroup/SelfHelpGroup.css'
+import SelfHelpCard from '../../SelfHelpCard/SelfHelpCard'
 export default function SelfHelpGroup() {
+  // Arr =["linear-gradient(90deg, #67B8E0 0%, #1B68A8 99.99%, #004E8F 100%)"]
   return (
     <div>
       <SearchBar />
       <div className="SelfHelpContainer" >
 
-
-        <div className="cards">
-
-         
-          <div className="PicNameContainer">
-            <div className="pic">
-            </div>
-            <div className="NameAndType">
-              <div className="Name">
-                No More Depression !!
-              </div>
-              <div className="Type">
-                <div className="TypeOne">
-                  Depression
-                </div>
-                <div className="TypeOne">
-                  Anxiety
-                </div>
-              </div>
-
-
-            </div>
-
-          </div>
-
-          <div className="JoinGr">
-            <button className='Btn-JoinGr'>Join Group</button>
-          </div>
-         
-
-        </div>
+             <SelfHelpCard/>
+        
 
       </div>
 
