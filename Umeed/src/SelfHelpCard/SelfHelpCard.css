@@ -2,7 +2,7 @@
     /* border: 2px solid red; */
     width: 1342px;
     height: 306px;
-    background: linear-gradient(90deg, #67B8E0 0%, #1B68A8 99.99%, #004E8F 100%);
+    /* background: linear-gradient(90deg, #67B8E0 0%, #1B68A8 99.99%, #004E8F 100%); */
     border-radius: 6px;
     flex: none;
     margin-bottom: 1%;
@@ -19,7 +19,6 @@
     gap: 40px;
     padding-top: 1%;
     position: absolute;
-    width: 658px;
     height: 120px;
     left: 202px;
     /* top: 184px; */
@@ -40,7 +39,6 @@
   }
 
   .Name {
-    width: 488px;
     height: 68px;
     font-family: 'Poppins';
     font-style: normal;
