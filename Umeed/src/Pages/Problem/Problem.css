@@ -1,0 +1,47 @@
+.ProblemContainer{
+    margin-top: 4%;
+    display: flex;
+    padding: 0px;
+    gap: 92px;
+    width: 1392px;
+    height: 400px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.ProblemContainer > Div{
+    height: 88%;
+    width: 40%;
+    border-radius: 3px;
+}
+
+.DepressionContainer{
+    background-image: url("../../../public/images/depression.png");
+   
+}
+
+.AnxietyContainer{
+    background-image: url("../../../public/images/Anxiety.jpg");
+}
+
+.AlcoholContainer{
+    background-image: url("../../../public/images/Alcohol.jpg");
+}
+
+.MentalHealthContainer{
+    background-image: url("../../../public/images/Mental_Health.png");
+}
+.NameOfPic{
+    margin-left: 5%;
+    margin-top: 55%;
+    height: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 50px;
+    color: #EFEFEF;
+}
