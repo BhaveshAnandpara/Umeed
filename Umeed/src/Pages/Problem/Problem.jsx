@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Problem/Problem.css'
 import SearchBar from '../../Components/SearchBar/SearchBar'
-import ProblemBar from './ProblemBar/ProblemBar'
+
 import {Link, useNavigate} from 'react-router-dom'
 
 

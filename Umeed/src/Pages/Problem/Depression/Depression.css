@@ -1,0 +1,72 @@
+.DepresionContainer{
+
+
+    flex-direction: column;
+    margin-inline-end: 7%;
+    margin-inline-start: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.Heading{
+    width: 1406px;
+    /* height: 95px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43px;
+    line-height: 77px;
+    background: linear-gradient(90deg, rgba(103, 107, 109, 0.9) 0%, rgba(139, 139, 139, 0.9) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    /* flex: none; */
+    align-self: stretch;
+    flex-grow: 0;
+}
+.AboutInfo{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 38px;
+/* Text */
+color: #474747;
+/* Inside auto layout */
+/* flex: none; */
+flex-grow: 0;
+}
+.PaboutInfo{
+    margin-top: 0px;
+}
+
+.depressionImg{
+     background-image: url('../../../../public/images/AboutDepression.png');
+    width: 60vw;
+    display: block;
+    background-size: cover;
+    height: 400px;
+}
+.CausesHeading{
+    width: 1406px;
+    /* height: 95px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43px;
+    line-height: 77px;
+    background: linear-gradient(90deg, rgba(103, 107, 109, 0.9) 0%, rgba(139, 139, 139, 0.9) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    /* flex: none; */
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
