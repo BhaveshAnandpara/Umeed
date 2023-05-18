@@ -15,7 +15,7 @@ export default function Header() {
                 <a  className='Header_anchor' href=''  onClick={ ()=> navigate('/Home')} ><p>Home</p></a>
                 </div>
                 <div className="HeaderConnect">
-                <a className='Header_anchor' href='' onClick={ ()=> navigate('/ConnectPage')}><p>Connect</p></a>
+                <a className='Header_anchor' href='' onClick={ ()=> navigate('/room')}><p>Connect</p></a>
                 </div>
                 <div className="HeaderSelfHelp">
                 <a className='Header_anchor' href='' onClick={ ()=> navigate('/SelfHelpGroup')} ><p>Self help groups</p></a>

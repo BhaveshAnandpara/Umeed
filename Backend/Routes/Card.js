@@ -5,7 +5,7 @@ dotenv.config()
 
 router.post('/AddCard', (req, res) => {
 
-    
+
     try {
 
         grName = req.body.grName
@@ -15,7 +15,7 @@ router.post('/AddCard', (req, res) => {
         ManagedBy = req.body.ManagedBy
         grLink = req.body.grLink
 
-    
+
         const card = new selfhelpcard({
 
             grName,
@@ -29,7 +29,7 @@ router.post('/AddCard', (req, res) => {
 
         const newCard = card.save()
 
-        res.json( "Added Successfully" )
+        res.json("Added Successfully")
 
     } catch (err) {
         console.log(err)
@@ -39,12 +39,12 @@ router.post('/AddCard', (req, res) => {
 
 router.get('/GetCard', async (req, res) => {
 
-    
+
     try {
 
-        const cards = await selfhelpcard.find({}) ;
+        const cards = await selfhelpcard.find({});
 
-        res.json( cards )
+        res.json(cards)
 
     } catch (err) {
         console.log(err)
