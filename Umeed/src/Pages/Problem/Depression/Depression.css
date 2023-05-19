@@ -1,7 +1,7 @@
 .DepresionContainer{
 
-
-    flex-direction: column;
+/* margin-top: 300px;     */
+flex-direction: column;
     margin-inline-end: 7%;
     margin-inline-start: 7%;
     display: flex;

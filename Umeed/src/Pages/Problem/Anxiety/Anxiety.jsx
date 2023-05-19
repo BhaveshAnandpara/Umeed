@@ -4,8 +4,8 @@ import '../Depression/Depression.css'
 
 export default function Anxiety() {
     return (
-        <div>
-          
+        <div  >
+          <div className="problem">
             <div className='ProblemBarContainer'>
 
 
@@ -30,6 +30,16 @@ export default function Anxiety() {
 
 
             </div>
+            </div>
+
+<br />
+<br />
+<br />
+<br />
+
+
+
+
 
 
             <div className="DepresionContainer">
