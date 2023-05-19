@@ -1,6 +1,8 @@
 .HeaderContainer{
     display: flex;
     align-items: baseline;
+    /* position: fixed;
+    top: 0; */
 
 }
 .Hname{
