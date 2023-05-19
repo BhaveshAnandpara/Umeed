@@ -31,7 +31,7 @@ function App() {
         <Route exact path='/Problem/MentalHealth' element={<MentalHealth/>}/>
         <Route exact path='/SelfHelpGroup' element={<SelfHelpGroup/>}/>
         <Route exact path='/lobby' element={<Lobby/>}/>
-        <Route exact path='/room' element={<Room/>}/>
+        <Route exact path='/room/:roomId' element={<Room/>}/>
       </Routes>
     </BrowserRouter>
      
