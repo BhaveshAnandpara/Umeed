@@ -1,5 +1,5 @@
 .DepresionContainer{
-
+    /* padding-top: 7%; */
 /* margin-top: 300px;     */
 flex-direction: column;
     margin-inline-end: 7%;
@@ -12,6 +12,7 @@ flex-direction: column;
 
 
 .Heading{
+    padding-top: 9%;
     width: 1406px;
     /* height: 95px; */
     font-family: 'Poppins';
@@ -29,6 +30,7 @@ flex-direction: column;
     flex-grow: 0;
 }
 .AboutInfo{
+    /* padding-top: 7%; */
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 500;
@@ -40,9 +42,9 @@ color: #474747;
 /* flex: none; */
 flex-grow: 0;
 }
-.PaboutInfo{
-    margin-top: 0px;
-}
+/* .PaboutInfo{
+    /* margin-top: 0px; */
+ */
 
 .depressionImg{
      background-image: url('../../../../public/images/AboutDepression.png');
@@ -52,6 +54,7 @@ flex-grow: 0;
     height: 400px;
 }
 .CausesHeading{
+    padding-top: 7%;
     width: 1406px;
     /* height: 95px; */
     font-family: 'Poppins';
