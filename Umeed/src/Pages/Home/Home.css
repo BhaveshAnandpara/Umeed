@@ -29,9 +29,11 @@
     display: block;
     background-size: cover;
     height: 472px;
-    margin-top: 1%;
+    margin-top: 2%;
     margin-bottom: 2%;
-    opacity: 70%;
+    opacity: 80%;
+    border-radius: 8px;
+    filter: drop-shadow(7px 14px 40px #2f103f);
 }
 
 .home3{
