@@ -12,7 +12,7 @@ flex-direction: column;
 
 
 .Heading{
-    padding-top: 9%;
+    padding-top: 13.5%;
     width: 1406px;
     /* height: 95px; */
     font-family: 'Poppins';
@@ -36,18 +36,20 @@ font-style: normal;
 font-weight: 500;
 font-size: 25px;
 line-height: 38px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
 /* Text */
 color: #474747;
-/* Inside auto layout */
-/* flex: none; */
-flex-grow: 0;
 }
-/* .PaboutInfo{
-    /* margin-top: 0px; */
- */
+
+
 
 .depressionImg{
-     background-image: url('../../../../public/images/AboutDepression.png');
+    background-image: url('../../../../public/images/AboutDepression.png');
     width: 60vw;
     display: block;
     background-size: cover;

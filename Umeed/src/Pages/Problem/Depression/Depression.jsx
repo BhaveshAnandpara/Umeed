@@ -34,19 +34,19 @@ export default function Depression() {
 
       <div className="DepresionContainer">
 
-        <div className="Heading">
+        <div className="Heading" id='IdAboutInfo'>
           Depression</div>
 
 
-        <div className="AboutInfo" id='IdAboutInfo'>
+        <div className="AboutInfo" >
           <p className='PaboutInfo'>
 
             Did you know According to WHO 3.8% of world population ( 266 Million ) is going through depression.
             But don’t worry we tried to combine a structured solution with the support of all the people familiar with your situation.
-
           </p>
-        </div>
         <div className="depressionImg"></div>
+        </div>
+        
 
         <div className="CausesContainer" id='IdCauses'>
           <div className="Heading">
