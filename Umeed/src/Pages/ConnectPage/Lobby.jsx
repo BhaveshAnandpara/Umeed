@@ -36,6 +36,7 @@ const LobbyScreen = () => {
   return (
     <div className="ConnectContainer" >
       <div className="HeadingLobby">
+        
       <h1>Lobby</h1>
     
       <div className="LobbyConnectPage">

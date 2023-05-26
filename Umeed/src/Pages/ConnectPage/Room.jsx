@@ -2,7 +2,7 @@
 import ReactPlayer from "react-player";
 import peer from "../../service/peer";
 import { useSocket } from "../context/SocketProvider";
-
+import '../ConnectPage/Room.css';
 const RoomPage = () => {
   const socket = useSocket();
   const [remoteSocketId, setRemoteSocketId] = useState(null);
@@ -110,7 +110,7 @@ const RoomPage = () => {
   ]);
 
   return (
-    <div>
+    <div className="RoomContainer">
       <h1>Room Page</h1>
       <h4>{remoteSocketId ? "Connected" : "No one in room"}</h4>
       {myStream && <button onClick={sendStreams}>Send Stream</button>}

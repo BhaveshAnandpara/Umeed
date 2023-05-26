@@ -2,8 +2,12 @@
     padding-top: 5%;
 }
 .HeadingLobby{
+    border-radius: 22px;
     margin-top: 11%;
     border: 2px solid;
+    padding-left: 17%;
+    padding: 4%;
+    margin: 4%;
 }
 
 .LobbyJoin{
@@ -24,3 +28,5 @@ color: black;}
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+
