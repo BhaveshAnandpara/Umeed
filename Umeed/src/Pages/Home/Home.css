@@ -3,6 +3,16 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-top: 4%;
+    background-color: #dfd5e4;
+}
+
+.home1{
+    background-color: rgb(205 195 214);
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 34px;
+    margin-top: 3%;
 }
 
 .home1p{
@@ -15,10 +25,11 @@
 
 .home2{
     background-image: url('../../../../Umeed/public/images/homeimg1.jpg');
-    width: 65vw;
+    width: 70vw;
     display: block;
     background-size: cover;
-    height: 400px;
+    height: 472px;
+    margin-top: 1%;
 }
 
 .home3{
