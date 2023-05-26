@@ -1,6 +1,11 @@
 .HeaderContainer{
     display: flex;
+    width: 98%;
+    /* align-items: self-start; */
+    position: fixed;
+    z-index: 10;
     align-items: baseline;
+    background-color: white;
     /* position: fixed;
     top: 0; */
 
@@ -24,9 +29,12 @@
 .HeaderComponents{
     display: flex;
     padding-left: 30%;
+    font-family: Poppins;
+    font-weight: 400;
+}
 
     
-}
+
 .HeaderConnect{
     padding-left: 101px
 

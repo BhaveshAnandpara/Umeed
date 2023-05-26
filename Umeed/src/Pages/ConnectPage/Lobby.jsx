@@ -1,6 +1,7 @@
 import React, { useState, useCallback, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSocket } from "../context/SocketProvider";
+import '../ConnectPage/Lobby.css';
 
 const LobbyScreen = () => {
   const [email, setEmail] = useState("");
@@ -33,10 +34,14 @@ const LobbyScreen = () => {
   }, [socket, handleJoinRoom]);
 
   return (
-    <div>
+    <div className="ConnectContainer" >
+      <div className="HeadingLobby">
       <h1>Lobby</h1>
+    
+      <div className="LobbyConnectPage">
       <form onSubmit={handleSubmitForm}>
-        <label htmlFor="email">Email ID</label>
+        <div className="LobbyEmail">
+        <label htmlFor="email">Email ID</label></div>
         <input
           type="email"
           id="email"
@@ -44,7 +49,8 @@ const LobbyScreen = () => {
           onChange={(e) => setEmail(e.target.value)}
         />
         <br />
-        <label htmlFor="room">Room Number</label>
+        <div className="LobbyRoom">
+        <label htmlFor="room">Room Number</label></div>
         <input
           type="text"
           id="room"
@@ -52,8 +58,11 @@ const LobbyScreen = () => {
           onChange={(e) => setRoom(e.target.value)}
         />
         <br />
-        <button>Join</button>
+        <div className="LobbyJoin">
+        <button className="BtnConnect">Join</button></div>
       </form>
+      </div>
+    </div>
     </div>
   );
 };

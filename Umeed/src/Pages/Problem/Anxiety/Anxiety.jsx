@@ -10,7 +10,7 @@ export default function Anxiety() {
 
 
                 <div className="About">
-                    <a className='About_anchor' href='#IdAboutInfo'   ><p>About </p></a>
+                    <a className='About_anchor' href='#AnxHeading'   ><p>About </p></a>
                 </div>
                 <div className="Causes">
                     <a className='Causes_anchor' href='#IdCauses' ><p>Causes</p></a>
@@ -44,8 +44,8 @@ export default function Anxiety() {
 
             <div className="DepresionContainer">
 
-<div className="Heading">
-  ANXITY</div>
+<div className="Heading" id='AnxHeading'>
+  ANXIETY</div>
 
 
 <div className="AboutInfo" id='IdAboutInfo'>
