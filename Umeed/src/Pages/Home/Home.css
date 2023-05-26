@@ -1,0 +1,26 @@
+.homebox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home1p{
+    font-style: italic;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 77px;
+}
+
+.home2{
+    background-image: url('../../../../Umeed/public/images/homeimg1.jpg');
+    width: 65vw;
+    display: block;
+    background-size: cover;
+    height: 400px;
+}
+
+.home3{
+
+}
