@@ -4,38 +4,97 @@
     justify-content: center;
     flex-direction: column;
     padding-top: 4%;
-    background-color: #dfd5e4;
+    /* background-color: #dfd5e4; */
 }
-
-.home1{
-    background-color: rgb(205 195 214);
-    padding-left: 1%;
-    padding-right: 1%;
-    border-radius: 34px;
-    margin-top: 3%;
-}
-
-.home1p{
-    font-style: italic;
-    font-family: 'Poppins';
-    font-weight: 500;
-    font-size: 43px;
-    line-height: 77px;
-}
-
-.home2{
-    background-image: url('../../../../Umeed/public/images/homeimg1.jpg');
+.ImgSectionOne{
+    background-image: url('../../../../Umeed/public/images/Upic1.jpg');
     width: 70vw;
+    display: flex;
     display: block;
     background-size: cover;
-    height: 472px;
+    height: 690px;
     margin-top: 2%;
+   
+   
+    border-radius: 8px;
+    filter: drop-shadow(7px 14px 40px #2f103f);
+
+}
+.Thougth{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: black;
+
+    
+    filter: drop-shadow(7px 14px 40px #2f103f);
+    color: white;
+    width: 100%;
+    height: 16%;
+    padding: 0%;
+   
+}
+
+.Thougth>   p{
+
+font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+   
+}
+
+.HallOfFrame{
+  
+    background-image: url('../../../../Umeed/public/images/smiles.jpg');
+    width: 70vw;
+    display: flex;
+    display: block;
+    background-size: cover;
+    background-color: #dfd5e4;
+    height: 690px;
+    margin-top: 4%;
     margin-bottom: 2%;
-    opacity: 80%;
+    opacity: 90%;
     border-radius: 8px;
     filter: drop-shadow(7px 14px 40px #2f103f);
 }
-
-.home3{
-
+.HallImgContainer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: black;
+    /* opacity: 33%; */
+    filter: drop-shadow(7px 14px 40px #2f103f);
+    color: white;
+    width: 100%;
+    height: 16%;
+    padding: 0%;
+    margin-top: -9%;
+   
+} 
+.HallHeading{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: black;
+    font-weight: 600;
+    font-size: 33px;
+   
+    filter: drop-shadow(7px 14px 40px #2f103f);
+    color: white;
+    width: 100%;
+    height: 16%;
+    padding: 0%;
+   
 }
+.HallHeading>   p{
+
+    font-family: 'Poppins';
+        font-style: normal;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 33px;
+    }
+

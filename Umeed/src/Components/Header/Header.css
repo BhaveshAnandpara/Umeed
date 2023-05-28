@@ -1,6 +1,6 @@
 .HeaderContainer{
     display: flex;
-    width: 98%;
+    width: 100%;
     /* align-items: self-start; */
     position: fixed;
     z-index: 10;
